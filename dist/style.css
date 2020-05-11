@@ -46,9 +46,22 @@ body {
 }
 
 header {
-  font-size: 2rem;
+  font-size: 16px;
   margin-bottom: 0;
-  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 30px 10%;
+}
+
+.welcome {
+  margin-right: auto;
 }
 
 img {
@@ -87,21 +100,43 @@ img {
 }
 
 #navigation {
-  display: inline-block;
-  font-size: 1rem;
-  padding: 0 10px;
-  margin: -2rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0;
   text-transform: uppercase;
-  text-align: center;
-  position: relative;
+  cursor: pointer;
 }
 
-nav li:hover {
-  background: purple;
-  color: white;
-}
-
-nav ul {
+ul li {
   list-style: none;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+ul li {
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+ul li:hover {
+  color: purple;
+}
+
+button {
+  margin-left: 20px;
+  padding: 9px 25px;
+  background-color: #0088a9;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: rgba(0, 136, 169, 0.8);
 }
 /*# sourceMappingURL=style.css.map */
