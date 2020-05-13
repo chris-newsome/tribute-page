@@ -6,23 +6,37 @@ img {
   }
   
   #img-div {
-    background: white;
     background-size: auto;
-    padding: 10px;
-    margin: 0;
+    padding: 20px;
   }
   
   #image {
     max-width: auto; 
     border-radius: 12px;
+    margin-right: 57%;
   }
 
-#img-caption {
+#img-container {
     margin: 15px 0 5px 0;
   }
+
+.img-caption {
+  margin-left: 45%;
+  margin-top: -15%;
+  padding-right: 500px;
+  padding-bottom: 100px;
+  line-height: 1.2;
+  font-size: 30px;
+}
 
 @media (max-width: 460px) {
     #img-caption {
       font-size: 1.4rem;
     }
   }
+
+blockquote p, cite{
+  margin-left: 35%;
+  margin-top: -25%;
+}
+  

@@ -7,12 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Florin Pop Tribute Page</title>
     <link rel="stylesheet" href="dist/style.css">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">">
+    <link rel="stylesheet" href="assets/css/all.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 
 <main id="main">
 
-<body>
+<body id="tribute-info">
 
 <!-- HEADER -->
 <header id="title">
@@ -20,38 +21,54 @@
     <nav id="navigation">
         <ul class="nav-links">
             <li><a href="#"></a>About</li>
-            <li><a href="#"></a>Popular Videos</li>
+            <li><a href="https://www.youtube.com/channel/UCeU-1X402kT-JlLdAitxSMA"></a>YouTube</li>
             <li><a href="#"></a>Social Media</li>
         </ul>
     </nav>
-    <a href="#" class="cta"><button>Contact</button></a>
+    <a href="https://www.florin-pop.com/contact" class="cta"><button>Contact</button></a>
 </header>
 <!-- END HEADER -->
 
 <!-- IMAGE SECTION -->
-    <section id="img-caption">
+    <section id="img-container">
         <figure id="img-div">
             <img id="image" src="https://miro.medium.com/max/3150/1*6yPj-9aMYxi0Xnk5XNa0Lg.jpeg" width="300px"alt="Florin" />
-            <figcaption class="img-caption">Florin is a rising star in the software development world. His hard work and dedication to honing his craft has earned him much respect in the community</figcaption>
+            <figcaption class="img-caption">Florin is a rising star in the software development world. His hard work and dedication to honing his craft has earned him much respect in the community.</figcaption>
         </figure>
+<!-- BLOCKQUOTE -->
+        <blockquote cite="https://www.florin-pop.com/pm-payhttps://www.florin-pop.com/"> <br><p>"Choose a job you love, adn you will never have to work a day in your life."</p>
+            <cite>--Confucious</cite>
+        </blockquote>
+<!-- END BLOCKQUOTE -->
     </section>
 <!-- END IMAGE SECTION-->
 
+<!-- ABOUT CONTAINER -->
+    <div class="about-container">
+        <div class="col-md-3 col-xs-12 about-left">
+            <h2>How his journey started</h2>
+        </div>
+    </div>
+<!-- END ABOUT CONTIANER -->
+
 <!-- ABOUT SECTION-->
     <section id="about-section">
-        <h3>Here's a little info about Florin Pop</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit in, incidunt modi eligendi sit laboriosam, veritatis dolore iusto repellendus ad sunt. Minus odio tempora ad praesentium minima nemo aspernatur maiores.</p>
+        <!--- <h3>Here's a little info about Florin Pop</h3> -->
+        <p>It all started in 2013 when a good friend of his introduced him to web development. They started learning HTML, and quickly got into CSS. At that point his was mind blown by it's power!
+        <br><br>
+        A few months later, he created a Freelancer account and started bidding on different jobs. Some of the clients liked his work so much that they turned into long-term gigs.
+        <br><br>
+        He also loves creating youtube tutorials on various topics ranging from: how to create different Web Components or Web Applications to how to solve Coding Challenges (mostly in JavaScript). His blog is a rich resource for that kind of content. 💻
+        </p>
         <p>Florin runs a popular youtube channel for mentoring new programmers. It has over 20k followers!</p>
-        <script src="https://apis.google.com/js/platform.js"></script>
-<div class="g-ytsubscribe" data-channelid="UCeU-1X402kT-JlLdAitxSMA" data-layout="full" data-count="default"></div><script src="https://apis.google.com/js/platform.js"></script>
     </section>
 <!-- END ABOUT SECTION-->
  
 <!-- POPULAR VIDEOS SECTION-->
-    <h2>Popular Videos</h2>
+    <h2>Here are some of his popular videos</h2>
     <section class="video-container">
         <p>In this tutorial, you're going to learn how to add form validation on the client-side using JavaScript. There will also be two different styles for the inputs: success and error - both showing the different states the inputs can have.</p>
-        <p>View the <a href="https://www.youtube.com/redirect?q=https%3A%2F%2Fcodepen.io%2FFlorinPop17%2Fpen%2FOJJKQeK&redir_token=u28L8Mj72YDm5TbehRyGPzc4pCx8MTU4OTI0MzU0OEAxNTg5MTU3MTQ4&v=rsd4FNGTRBw&event=video_description"> sourcecode here:</a></p>
+        <p>View the <a href="https://www.youtube.com/redirect?q=https%3A%2F%2Fcodepen.io%2FFlorinPop17%2Fpen%2FOJJKQeK&redir_token=u28L8Mj72YDm5TbehRyGPzc4pCx8MTU4OTI0MzU0OEAxNTg5MTU3MTQ4&v=rsd4FNGTRBw&event=video_description"> sourcecode</a></p>
         <div class="video-wrapper">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/rsd4FNGTRBw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope;     picture-in-picture" allowfullscreen></iframe>
         </div><br>
@@ -67,31 +84,18 @@
 <section id="social">
     <h3>Follow Florin On</h3>
     <ul>
-        <li><a href="https://twitter.com/florinpop1705"><i class="fa fa-twitter"></i></li></a></>
-        <li><a href="https://www.instagram.com/florinpop17/"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="https://twitter.com/florinpop1705"><i class="fab fa-twitter"></i></li></a></>
+        <li><a href="https://www.instagram.com/florinpop17/"><i class="fab fa-instagram"></i></a></li>
         <li><a href="https://github.com/florinpop17"><i class="fa fa-github"></i></a></li>
-        <li><a href="https://www.linkedin.com/in/florinpop17"><i class="fa fa-linkedin"></i></a></li>
+        <li><a href="https://www.linkedin.com/in/florinpop17"><i class="fab fa-linkedin"></i></a></li>
+        <li><a id="tribute-link" href=https://www.florin-pop.com/blog><i class="fas fa-blog"></i></a></li>
     </ul>
 </section>
 
 </body>
 <footer>
-    <!-- BLOCKQUOTE SECTION-->
-    <blockquote
-        cite="https://www.florin-pop.com/pm-payhttps://www.florin-pop.com/">
-        <p>"Choose a job you love, adn you will never have to work a day in your life."</p>
-        <cite>--Confucious</cite>
-    </blockquote>
-    <h4>If you have more time, you should read more about this awesome software 
-developer on his
-       <a
-        id="tribute-link"
-        href="https://www.florin-pop.com/blog"
-        target="_blank"
-        >Blog</a
-      >.
-    </h4>
-<!-- END BLOCKQUOTE SECTION-->
+    <h4>Read more about this awesome software 
+    developer on his blog.</h4>
 </footer>
 </main>
 </html>

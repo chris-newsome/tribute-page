@@ -1,6 +1,7 @@
 #social {
-  padding: 10px;
-  background-color: purple;;
+  padding: 20px;
+  background-color: purple;
+  text-align: center;
 }
 
 #social h3 {
@@ -22,10 +23,24 @@
   margin: 0 15px;
 }
 
-#social ul li .fa {
-  font-size: 30px;
+#social ul li .fab {
+  font-size: 50px;
   line-height: 60px;
-  transition: .6s;
+  transition: .2s;
+  color: #000;
+}
+
+#social ul li .fa {
+  font-size: 50px;
+  line-height: 60px;
+  transition: .2s;
+  color: #000;
+}
+
+#social ul li .fas {
+  font-size: 50px;
+  line-height: 60px;
+  transition: .2s;
   color: #000;
 }
 
@@ -40,7 +55,7 @@
   height: 60px;
   border-radius: 50%;
   background-color: #fff;
-  transition: .6s;
+  transition: .2s;
   box-shadow: 0 5px 4px rgba(0,0,0,.5);
 }
 
@@ -64,3 +79,11 @@
   background-color: #0077B5;
 }
 
+#social ul li:nth-child(5) a:hover {
+  background-color: #f57d00;
+}
+
+
+footer h4 {
+  text-align: center;
+}
