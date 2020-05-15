@@ -2,8 +2,64 @@ body {
     font-weight: Arial, Helvetica, sans-serif;
     background-color: #eee;
     color: #333;
+<<<<<<< Updated upstream
     margin: 0px;
     line-height: 1.0;
+=======
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    line-height: 1.15;
+    position: relative;
+    max-width: auto;
+}
+
+.about-container {
+    box-sizing: border-box;
+    display: block;
+    flex-basis: 25%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-bottom: 30px;
+    margin-left: 420px;
+    margin-right: 0px;
+    margin-top: 30px;
+    max-width: 25%;
+    padding-left: 8px;;
+    padding-right: 8px;
+    text-size-adjust: 100%;
+}
+
+#about-section {
+    box-sizing: border-box;
+    display: block;
+    flex-basis: 75%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    height: 352px;
+    margin-bottom: 30px;
+    margin-left: 800px;
+    margin-right: 0px;
+    margin-top: -70px;
+    max-width: 75%;
+    padding-left: 8px;;
+    padding-right: 8px;
+    text-size-adjust: 100%;
+    width: 882px;
+    -webkit-box-direction: normal;
+    -webkit-box-flex: 0;
+}
+
+body h2 {
+    margin-top: -8%;
+    text-align: center;
+}
+
+.video-container p {
+>>>>>>> Stashed changes
     text-align: center;
     position: relative;
 }

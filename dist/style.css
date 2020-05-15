@@ -13,8 +13,80 @@ body {
   font-weight: Arial, Helvetica, sans-serif;
   background-color: #eee;
   color: #333;
+<<<<<<< Updated upstream
   margin: 0px;
   line-height: 1.0;
+=======
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  line-height: 1.15;
+  position: relative;
+  max-width: auto;
+}
+
+.about-container {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  -ms-flex-preferred-size: 25%;
+      flex-basis: 25%;
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  margin-bottom: 30px;
+  margin-left: 420px;
+  margin-right: 0px;
+  margin-top: 30px;
+  max-width: 25%;
+  padding-left: 8px;
+  padding-right: 8px;
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+}
+
+#about-section {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+  -ms-flex-preferred-size: 75%;
+      flex-basis: 75%;
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  height: 352px;
+  margin-bottom: 30px;
+  margin-left: 800px;
+  margin-right: 0px;
+  margin-top: -70px;
+  max-width: 75%;
+  padding-left: 8px;
+  padding-right: 8px;
+  -webkit-text-size-adjust: 100%;
+     -moz-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+          text-size-adjust: 100%;
+  width: 882px;
+  -webkit-box-direction: normal;
+  -webkit-box-flex: 0;
+}
+
+body h2 {
+  margin-top: -8%;
+  text-align: center;
+}
+
+.video-container p {
+>>>>>>> Stashed changes
   text-align: center;
   position: relative;
 }
@@ -64,11 +136,26 @@ header {
   margin-right: auto;
 }
 
+<<<<<<< Updated upstream
 img {
   max-width: 100%;
   display: block;
   height: auto;
   margin: 0 auto;
+=======
+@media (max-width: 460px) {
+  header {
+    position: relative;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+#img-container {
+  margin: 15px 0 5px 0;
+  max-width: auto;
+>>>>>>> Stashed changes
 }
 
 #img-div {
@@ -78,8 +165,9 @@ img {
   margin: 0;
 }
 
-#image {
+img {
   max-width: auto;
+<<<<<<< Updated upstream
   border-radius: 12px;
 }
 
@@ -90,6 +178,78 @@ img {
 @media (max-width: 460px) {
   #img-caption {
     font-size: 1.4rem;
+=======
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#image {
+  border-radius: 12px;
+  margin-right: 57%;
+}
+
+#img-caption {
+  margin-left: 45%;
+  margin-top: -15%;
+  padding-right: 500px;
+  padding-bottom: 100px;
+  line-height: 1.2;
+  font-size: 30px;
+  position: relative;
+  display: block;
+}
+
+blockquote p,
+cite {
+  margin-left: 35%;
+  margin-top: -25%;
+}
+
+@media (max-width: 920px) {
+  #img-caption {
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: inherit;
+  }
+  #img-div {
+    max-width: none;
+  }
+  #image {
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  blockquote p {
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+>>>>>>> Stashed changes
   }
 }
 

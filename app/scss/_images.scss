@@ -1,4 +1,15 @@
+#img-container {
+  margin: 15px 0 5px 0;
+  max-width: auto;
+}
+
+#img-div {
+  background-size: auto;
+  padding: 20px;
+}
+
 img {
+<<<<<<< Updated upstream
     max-width: 100%;
     display: block;
     height: auto;
@@ -26,3 +37,60 @@ img {
       font-size: 1.4rem;
     }
   }
+=======
+  max-width: auto;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#image {
+  border-radius: 12px;
+  margin-right: 57%;
+}
+
+#img-caption {
+  margin-left: 45%;
+  margin-top: -15%;
+  padding-right: 500px;
+  padding-bottom: 100px;
+  line-height: 1.2;
+  font-size: 30px;
+  position: relative;
+  display: block;
+}
+
+blockquote p,
+cite {
+  margin-left: 35%;
+  margin-top: -25%;
+}
+
+@media (max-width: 920px) {
+  #img-caption {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: inherit;
+  }
+  #img-div {
+    max-width: none;
+  }
+  #image {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  blockquote p {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+>>>>>>> Stashed changes
